@@ -1,0 +1,131 @@
+.sup {
+    width: 100%;
+    height: 20%;
+}
+
+.inf {
+    width: 100%;
+    height: 80%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: #dcdcdc;
+    color: black;
+    font-size: 18px;
+    text-decoration: double;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.menu li {
+    padding: 2px 5px;
+    margin: 0 auto;
+}
+
+.contenido {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.h-ventas {
+    height: 100%;
+    width: 25%;
+    background-color: #dcdcdc;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.cont-venta {
+    width: calc(75% - 10px);
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.buscadorVenta {
+    display: block;
+    width: 95%;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    font-size: 15px;
+}
+
+.separador {
+    display: flex;
+    height: calc(600px - 60px);
+}
+
+.listaProductos {
+    all: initial;
+    display: inline-block;
+    width: 45%;
+    /*height: 300px;*/
+    max-height: 100%;
+    background-color: #dcdcdc;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+b {
+    padding: 5px;
+}
+
+.descripVenta {
+    all: initial;
+    display: inline-block;
+    width: 45%;
+    max-width: 100%;
+    background-color: #dcdcdc;
+    margin: 5px auto;
+    border-top-right-radius: 5px;
+}
+
+.btnCompra {
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    color: black;
+    box-shadow: 3px 3px 5px #dcdcdcb6;
+    width: 200px;
+    padding: 5px;
+    position: sticky;
+    left: calc(95% - 200px);
+    top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.btnCompra:hover {
+    background-color: rgb(33, 121, 221);
+    color: #fff;
+    text-decoration: dotted;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    text-decoration: double;
+    text-shadow: 1px 1px 3px #aca8a8;
+    cursor: pointer;
+}
+
+.selectorProductos {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p .agregar {
+    float: right;
+    color: #aca8a8;
+    border: 1px solid #aca8a8;
+    border-radius: 5px;
+    padding: 2px 4px;
+    margin-right: 5px;
+}
+
+p .agregar:hover {
+    cursor: pointer;
+}
